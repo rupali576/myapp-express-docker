@@ -5,7 +5,7 @@ function connect(){
         user:'root',
         database:'myapp_db',
         password:'root',
-        port:9099
+        port:9999
     })
   connection.connect()
   return connection    
